@@ -6,7 +6,7 @@ Text Domain: sjwc-flat-admin-theme
 Domain Path: /lang
 Version: 1.0.0
 Description: A fork of the (now unsupported) Flatty Flat Admin Theme
-Author: Scott J Walter Consulting
+Author: Scott J. Walter
 Author URI: https://scottjwalter.consulting
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -62,23 +62,34 @@ add_action( 'admin_enqueue_scripts', function ( $hook_suffix ) {
 });
 
 // INIT
-require_once( dirname( __FILE__ ) . '/includes/init/options_loader.php' );
-require_once( dirname( __FILE__ ) . '/includes/init/media_loader.php' );
-require_once( dirname( __FILE__ ) . '/includes/init/action_links.php' );
+foreach ( [ 
+    'options_loader', 
+    'media_loader', 
+    'action_links' 
+    ] as $file ) {
+    require_once( dirname( __FILE__ ) . '/includes/init/' . $file . '.php' );
+}
 
 // LOAD FLATTY MENU
-require_once( dirname( __FILE__ ) . '/includes/menu/menu-main.php' );
-require_once( dirname( __FILE__ ) . '/includes/menu/menu-sub-login.php' );
-require_once( dirname( __FILE__ ) . '/includes/menu/menu-sub-dashboard.php' );
-require_once( dirname( __FILE__ ) . '/includes/menu/menu-sub-appearance.php' );
-require_once( dirname( __FILE__ ) . '/includes/menu/menu-sub-business_card.php' );
-require_once( dirname( __FILE__ ) . '/includes/menu/menu-sub-postspages.php' );
+foreach ( [ 
+    'menu-main',
+    'menu-sub-login',
+    'menu-sub-dashboard',
+    'menu-sub-appearance',
+    'menu-sub-business_card',
+    'menu-sub-postspages'
+    ] as $file ) {
+    require_once( dirname( __FILE__ ) . '/includes/menu/' . $file . '.php' );
+}
 
 // LOAD FLATTY OPTIONS PAGE
-require_once( dirname( __FILE__ ) . '/includes/pages/introduction.php' );
-require_once( dirname( __FILE__ ) . '/includes/pages/main_login.php' );
-require_once( dirname( __FILE__ ) . '/includes/pages/main_dashboard.php' );
-require_once( dirname( __FILE__ ) . '/includes/pages/main_appearance.php' );
-require_once( dirname( __FILE__ ) . '/includes/pages/main_business_card.php' );
-require_once( dirname( __FILE__ ) . '/includes/pages/main_postspages.php' );
-?>
+foreach ( [
+    'introduction',
+    'main_login',
+    'main_dashboard',
+    'main_appearance',
+    'main_business_card',
+    'main_postspages'
+    ] as $file ) {
+    require_once( dirname( __FILE__ ) . '/includes/pages/' . $file . '.php' );
+}
