@@ -10,5 +10,9 @@
             "homepage": "https://scottjwalter.consulting/"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=7.0",
+        "composer/installers": "~1.0",
+        "roave/security-advisories": "dev-master"
+    }
 }
