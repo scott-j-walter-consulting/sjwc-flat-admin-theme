@@ -6,8 +6,8 @@ Text Domain: sjwc-flat-admin-theme
 Domain Path: /lang
 Version: 1.0.0
 Description: A fork of the (now unsupported) Flatty Flat Admin Theme
-Author: scottjwalter
-Author URI: https://scottjwalter.info
+Author: Scott J Walter Consulting
+Author URI: https://scottjwalter.consulting
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
