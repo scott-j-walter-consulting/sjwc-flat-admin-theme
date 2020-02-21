@@ -9,6 +9,9 @@ if ( ! defined( 'FLATTY_BASENAME' ) ) {
 	define( 'FLATTY_BASENAME', plugin_basename( FLATTY_FILE ) );
 }
 if ( ! defined( 'FLATTY_PLUGIN_URL' ) ) {
-	define( 'FLATTY_PLUGIN_URL', 'flatty-flat-admin-theme/' );
+	define( 'FLATTY_PLUGIN_URL', 'sjwc-flat-admin-theme/' );
 }
-?>
+
+if ( ! defined( 'FLATTY_PLUGIN_URL' ) ) {
+	define( 'FLATTY_PLUGIN_URL', 'sjwc-flat-admin-theme/' );
+}
