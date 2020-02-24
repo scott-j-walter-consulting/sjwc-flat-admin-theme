@@ -157,6 +157,14 @@ OPTION
     cursor:pointer;
 }
 
+.flatty-option .flatty-column.sjwc-has-input-text {
+    width: 50%;
+}
+
+.flatty-option .flatty-column.sjwc-has-input-text input[type=text] {
+    width: 100%;
+}
+
 /*--------------------------------------
 PREVIEW IMAGES
 ---------------------------------------*/

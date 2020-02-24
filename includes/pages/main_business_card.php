@@ -54,12 +54,12 @@ function options_sub_business_card() {
 		            		<label for="flatty_business_card_firstname"><?php _e('Firstname', 'flatty-flat-admin-theme' ); ?></label>
 		            		<div class="flatty-description"><?php _e('Firstname', 'flatty-flat-admin-theme' ); ?></div>
 		            	</div>
-		            	<div class="flatty-column">
+		            	<div class="flatty-column sjwc-flatty-has-input-text">
 							<input
 								type="text"
 								name="flatty_business_card_firstname"
 								id="flatty_business_card_firstname"
-								maxlength="20"
+								maxlength="255"
 								placeholder="John"
 								value='<?php echo get_option('flatty_business_card_firstname'); ?>'
 							/>
@@ -71,12 +71,12 @@ function options_sub_business_card() {
 		            		<label for="flatty_business_card_lastname"><?php _e('Lastname', 'flatty-flat-admin-theme' ); ?></label>
 		            		<div class="flatty-description"><?php _e('Lastname', 'flatty-flat-admin-theme' ); ?></div>
 		            	</div>
-		            	<div class="flatty-column">
+		            	<div class="flatty-column sjwc-flatty-has-input-text">
 							<input
 								type="text"
 								name="flatty_business_card_lastname"
 								id="flatty_business_card_lastname"
-								maxlength="20"
+								maxlength="255"
 								placeholder="Appleseed"
 								value='<?php echo get_option('flatty_business_card_lastname'); ?>'
 							/>
@@ -104,12 +104,12 @@ function options_sub_business_card() {
 		            		<label for="flatty_business_card_company"><?php _e('Company', 'flatty-flat-admin-theme' ); ?></label>
 		            		<div class="flatty-description"><?php _e('Company name', 'flatty-flat-admin-theme' ); ?></div>
 		            	</div>
-		            	<div class="flatty-column">
+		            	<div class="flatty-column sjwc-flatty-has-input-text">
 							<input
 								type="text"
 								name="flatty_business_card_company"
 								id="flatty_business_card_company"
-								maxlength="20"
+								maxlength="255"
 								placeholder="Fruit"
 								value='<?php echo get_option('flatty_business_card_company'); ?>'
 							/>
@@ -121,7 +121,7 @@ function options_sub_business_card() {
 		            		<label for="flatty_business_card_phone"><?php _e('Phone', 'flatty-flat-admin-theme' ); ?></label>
 		            		<div class="flatty-description"><?php _e('Phone', 'flatty-flat-admin-theme' ); ?></div>
 		            	</div>
-		            	<div class="flatty-column">
+		            	<div class="flatty-column sjwc-flatty-has-input-text">
 							<input
 								type="text"
 								name="flatty_business_card_phone"
@@ -138,12 +138,12 @@ function options_sub_business_card() {
 		            		<label for="flatty_business_card_email"><?php _e('E-mail', 'flatty-flat-admin-theme' ); ?></label>
 		            		<div class="flatty-description"><?php _e('E-mail', 'flatty-flat-admin-theme' ); ?></div>
 		            	</div>
-		            	<div class="flatty-column">
+		            	<div class="flatty-column sjwc-flatty-has-input-text">
 							<input
 								type="text"
 								name="flatty_business_card_email"
 								id="flatty_business_card_email"
-								maxlength="40"
+								maxlength="255"
 								placeholder="mail@mail.com"
 								value='<?php echo get_option('flatty_business_card_email'); ?>'
 							/>
@@ -155,12 +155,12 @@ function options_sub_business_card() {
 		            		<label for="flatty_business_card_website"><?php _e('Website', 'flatty-flat-admin-theme' ); ?></label>
 		            		<div class="flatty-description"><?php _e('Website (with http://)', 'flatty-flat-admin-theme' ); ?></div>
 		            	</div>
-		            	<div class="flatty-column">
+		            	<div class="flatty-column sjwc-flatty-has-input-text">
 							<input
 								type="text"
 								name="flatty_business_card_website"
 								id="flatty_business_card_website"
-								maxlength="100"
+								maxlength="255"
 								placeholder="http://yourwebsite.com"
 								value='<?php echo get_option('flatty_business_card_website'); ?>'
 							/>
@@ -224,12 +224,12 @@ function options_sub_business_card() {
 		            		<label for="flatty_business_card_widget_title"><?php _e('Widget Title', 'flatty-flat-admin-theme' ); ?></label>
 		            		<div class="flatty-description"><?php _e('Change the widget title', 'flatty-flat-admin-theme' ); ?></div>
 		            	</div>
-		            	<div class="flatty-column">
+		            	<div class="flatty-column sjwc-flatty-has-input-text">
 							<input
 								type="text"
 								name="flatty_business_card_widget_title"
 								id="flatty_business_card_widget_title"
-								maxlength="15"
+								maxlength="35"
 								placeholder="Business Card"
 								value='<?php echo get_option('flatty_business_card_widget_title'); ?>'
 							/>
@@ -268,5 +268,3 @@ function options_sub_business_card() {
 
 	<?php
 }
-
-?>
