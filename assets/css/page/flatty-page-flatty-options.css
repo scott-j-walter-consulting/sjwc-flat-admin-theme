@@ -157,11 +157,11 @@ OPTION
     cursor:pointer;
 }
 
-.flatty-option .flatty-column.sjwc-has-input-text {
+.flatty-option .flatty-column.sjwc-flatty-has-input-text {
     width: 50%;
 }
 
-.flatty-option .flatty-column.sjwc-has-input-text input[type=text] {
+.flatty-option .flatty-column.sjwc-flatty-has-input-text input[type=text] {
     width: 100%;
 }
 
