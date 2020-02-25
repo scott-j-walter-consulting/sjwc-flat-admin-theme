@@ -359,12 +359,12 @@ function options_main_appearance() {
 	            		<label for="flatty_show_custom_sitename"><?php _e('Use a custom site/blog name', 'flatty-flat-admin-theme' ); ?></label>
 	            		<div class="flatty-description"><?php _e('Leave blank if not needed', 'flatty-flat-admin-theme' ); ?></div>
 	            	</div>
-	            	<div class="flatty-column">
+	            	<div class="flatty-column sjwc-flatty-has-input-text">
 						<input
 							type="text"
 							name="flatty_show_custom_sitename"
 							id="flatty_show_custom_sitename"
-							maxlength="20"
+							maxlength="255"
 							placeholder="<?php echo get_option('blogname'); ?>"
 							value='<?php echo get_option('flatty_show_custom_sitename'); ?>'
 						/>
@@ -534,7 +534,7 @@ function options_main_appearance() {
 	            		<label for="flatty_wp_flatty_footer_custom_text"><?php _e('Add custom text', 'flatty-flat-admin-theme' ); ?></label>
 	            		<div class="flatty-description"><?php _e('Leave blank if not needed', 'flatty-flat-admin-theme' ); ?></div>
 	            	</div>
-	            	<div class="flatty-column">
+	            	<div class="flatty-column sjwc-flatty-has-input-text">
 						<input
 							type="text"
 							name="flatty_wp_flatty_footer_custom_text"

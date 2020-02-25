@@ -100,7 +100,7 @@ function options_main_login() {
                         <label for="flatty_login_logo_customlink_url"><?php _e('Change URL of the login logo', 'flatty-flat-admin-theme' ); ?></label>
                         <div class="flatty-description"><?php _e('Change the default link.', 'flatty-flat-admin-theme' ); ?></div>
                     </div>
-                    <div class="flatty-column">
+                    <div class="flatty-column sjwc-flatty-has-input-text">
                         <input
                             type="text"
                             name="flatty_login_logo_customlink_url"
@@ -116,7 +116,7 @@ function options_main_login() {
                         <label for="flatty_login_logo_customlink_title"><?php _e('Change the title of the link', 'flatty-flat-admin-theme' ); ?></label>
                         <div class="flatty-description"><?php _e('Change the default link title.', 'flatty-flat-admin-theme' ); ?></div>
                     </div>
-                    <div class="flatty-column">
+                    <div class="flatty-column sjwc-flatty-has-input-text">
                         <input
                             type="text"
                             name="flatty_login_logo_customlink_title"
@@ -132,7 +132,7 @@ function options_main_login() {
                         <label for="flatty_login_footer_show"><?php _e('Custom Footer', 'flatty-flat-admin-theme' ); ?></label>
                         <div class="flatty-description"><?php _e('Add a custom footer to the login page.', 'flatty-flat-admin-theme' ); ?></div>
                     </div>
-                    <div class="flatty-column">
+                    <div class="flatty-column sjwc-flatty-has-input-text">
                         <input
                             type="text"
                             name="flatty_login_footer_show"
@@ -321,7 +321,7 @@ function options_main_login() {
                     <div class="flatty-column">
                         <label for="flatty_login_recaptcha-site"><?php _e('Google Site Key', 'flatty-flat-admin-theme' ); ?></label>
                     </div>
-                    <div class="flatty-column">
+                    <div class="flatty-column sjwc-flatty-has-input-text">
                         <input
                             type="text"
                             name="flatty_login_recaptcha-site"
@@ -337,7 +337,7 @@ function options_main_login() {
                         <label for="flatty_login_recaptcha-secret"><?php _e('Google Secret Key', 'flatty-flat-admin-theme' ); ?></label>
                         <div class="flatty-description"><?php _e('Do not share this key to anyone.', 'flatty-flat-admin-theme' ); ?></div>
                     </div>
-                    <div class="flatty-column">
+                    <div class="flatty-column sjwc-flatty-has-input-text">
                         <input
                             type="text"
                             name="flatty_login_recaptcha-secret"
@@ -353,7 +353,7 @@ function options_main_login() {
                         <label for="flatty_login_recaptcha-error"><?php _e('Use this custom error when fails', 'flatty-flat-admin-theme' ); ?></label>
                         <div class="flatty-description"> <?php _e('Shows when a user fails to check the box.', 'flatty-flat-admin-theme' ); ?></div>
                     </div>
-                    <div class="flatty-column">
+                    <div class="flatty-column sjwc-flatty-has-input-text">
                         <input
                             type="text"
                             name="flatty_login_recaptcha-error"
