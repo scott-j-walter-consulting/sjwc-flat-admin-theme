@@ -10,7 +10,7 @@ html.wp-toolbar {
 body {
     height:initial!important;
     font-size:100%;
-    background:none;
+    background:#23282d;
     font-family:"Source Sans Pro", -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 }
 body.iframe {
