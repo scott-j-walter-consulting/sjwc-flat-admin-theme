@@ -45,7 +45,7 @@ dl {
   height: auto!important;
   margin: 0 0 0 160px;
   background-color: #fff;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: none; /* 3px 3px 3px rgba(0, 0, 0, 0.1); */
   z-index: 0;
 }
 #wpcontent.fullwidth {
