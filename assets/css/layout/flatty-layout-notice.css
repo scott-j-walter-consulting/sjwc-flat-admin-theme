@@ -8,7 +8,7 @@ div.updated {
   box-sizing: border-box;
   width: 100%;
   background: #F9F7EA;
-  border-left:none;
+  border-left: solid 1px rgb(204, 208, 212);
   border-right: solid 4px #03A9F4;
   box-shadow: none;
   margin: 10px 0 10px;
