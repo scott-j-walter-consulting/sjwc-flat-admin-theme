@@ -10,3 +10,7 @@ body.press-this:after {
 body.press-this .flatty-custom-footer {
     display:none!important;
 }
+
+div[id^="jr-mt-settings"] td {
+    line-height: 2em;
+}
