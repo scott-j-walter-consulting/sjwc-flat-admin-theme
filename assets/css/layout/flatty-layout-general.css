@@ -34,7 +34,7 @@ body.admin-color-light:not(iframe):after {
     background: linear-gradient(135deg, #fff 0%, #f5f5f5 100%);
 }
 body.admin-color-fresh:not(iframe):after {
-    background-color:#23282d;
+    /* background-color:#23282d; */
 }
 /*--------------------------------------
 DASHBOARD WIDGETS
