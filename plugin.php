@@ -4,7 +4,7 @@ Plugin Name: Flat Admin Theme
 Plugin URI: https://scottjwalter.consulting
 Text Domain: sjwc-flat-admin-theme
 Domain Path: /lang
-Version: 1.0.0
+Version: 1.0.1
 Description: A fork of the (now unsupported) Flatty Flat Admin Theme
 Author: Scott J. Walter
 Author URI: https://scottjwalter.consulting
